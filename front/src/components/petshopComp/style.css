@@ -1,0 +1,44 @@
+.petshop{
+    list-style: none;
+    padding: 7px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border-bottom: 3px;
+}
+.petshop img{
+    width: 80px;
+    border-radius: 5px;
+    vertical-align: baseline;
+}
+
+.pet-infos b{
+    margin-bottom: 0px;
+}
+
+.pet-infos span{
+    vertical-align: middle;
+    color: #626264;
+}
+.pet-infos text{
+    font-size: 13px;
+    padding: 2px;
+    margin-right: 10pxs;
+    vertical-align: middle;
+    color: #626264;
+}
+.img-fluid{
+    margin-bottom: 15px;
+}
+.mdi-star{
+    color: #FACD5D;
+}
+.mdi-money{
+    color: forestgreen;
+}
+.mdi-gps{
+    color: #6f6fe6d5;
+}
+.frete{
+    color: #fff;
+    background-color: var(--terciary);   
+}

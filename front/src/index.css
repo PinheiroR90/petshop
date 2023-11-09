@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,600;1,700&family=Poppins:wght@300&display=swap');
+
+:root{
+  --primary: #4682B4  !important;
+  --secundary: #ffff  !important;
+  --terciary:#B0C4DE  !important;
+}
+html,
+body {
+  height: 100%;
+  font-family: 'Open Sans';
+  overflow-x: hidden;
+  letter-spacing: -0.03em;
+}
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=text]:disabled,
+input[type=email]:disabled,
+input[type=number]:disabled,
+input[type=password]:disabled{
+  background-color: #f6f5f5;
+  border: 0.5px solid #dcdcdc;
+  outline: none;
+  color: #626264;
+  font-size: 15px;
+}
+.bg-primary{
+  background-color: var(--terciary);
+}
+
+.box{
+  background-color: var(--secundary);
+  box-shadow: 0px 0px 11px 6px rgb(0,0,0,0.2);
+  border-radius: 5px;
+  display: inline-block;
+  padding: 50px;
+  margin-top: 30px;
+}
+.btn-secundary{
+  background-color: var(--primary);
+  color: var(--secundary);
+  font-size: 15px;
+}
+.section-title{
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 7px;
+  margin: 20px 0;
+  display: inline-block;
+}
+.row{
+  margin-left: 20px;
+  margin-top: 0px;
+}

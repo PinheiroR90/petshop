@@ -1,0 +1,13 @@
+.sidebar h5{
+    height: 30px;
+    margin-bottom: 0px;
+}
+.sidebar .products{
+    height: calc(100% - 200px);
+    overflow: auto;
+    align-items: start;
+}
+.sidebar .footer{
+    height: 158px;
+    
+}
